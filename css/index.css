@@ -1,0 +1,116 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+a{
+	color: #666;
+	text-decoration:none; 
+}
+
+.clear:after{
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+.move {
+	width: 800px;
+	padding: 20px;
+	margin: 50px auto;
+	border: 1px solid #ccc;
+}
+
+.move header {
+	font-size: 12px;
+	width: 100%;
+}
+
+.move header div {
+	margin-bottom: 20px;
+	width: 100%;
+	color: #666;
+}
+
+.move header div span {
+	cursor: pointer;
+	color: #6F5FD8;
+	padding: 3px 6px;
+}
+
+.move header div span.active {
+	color: white;
+	background: #388BFF;
+}
+
+.move .nav {
+	margin-top: 30px;
+	font-size: 14px;
+	width: 100%;
+	height: 28px;
+	border-bottom: 1px solid #ccc;
+}
+
+.move .nav li {
+	cursor: pointer;
+	float: left;
+	height: 26px;
+	line-height: 26px;
+	margin-bottom: -1px;
+	padding: 0 15px;
+	border-style: solid;
+	border-width: 2px 1px 1px;
+	border-color: transparent;
+}
+
+.move .nav li.active {
+	border-color: #2C99FF #ccc #fff;
+}
+.content{
+	width: 100%;
+	margin-top: 20px;
+}
+.content .content_list{
+	float: left;
+	width: 160px;
+	margin-right:40px;
+}
+.content .content_list img{
+	width: 100%;
+	height: auto;
+}
+.content .content_list h3{
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	text-align: center;
+	font-size: 16px;
+}
+.content .content_list p{
+	color: #666;
+	text-align: center;
+}
+
+.page{
+	margin-top: 30px;
+	width: 100%;
+	text-align: center;
+}
+.page span{
+	cursor: pointer;
+	padding: 3px 6px;
+	border: 1px solid #ccc;
+}
+.page span:hover{
+	border: 1px dotted  dodgerblue;
+}
+.page span.active{
+	border: 1px solid #388BFF;
+}
